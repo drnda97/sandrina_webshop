@@ -9,6 +9,7 @@
 body{
     background-color: #4f3b78;
 }
+.content,
 .wrapper{
     width: 1200px;
     margin: 0 auto;
@@ -32,6 +33,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 22px;
     display: block;
+    font-weight: bolder;
 }
 nav ul li a:hover{
     border-bottom: 2px solid rgba(0,0,0,.5);

@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'UsersController@index');
+Route::get('/gallery', 'UsersController@gallery');
+Route::get('/contact', 'UsersController@contact');
+Route::get('/collection', 'UsersController@collection');
+Route::get('/about', 'UsersController@about');

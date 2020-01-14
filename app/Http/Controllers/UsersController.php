@@ -10,4 +10,24 @@ class UsersController extends Controller
     {
         return view('user/welcome');
     }
+
+    public function gallery()
+    {
+        return view('user/gallery');
+    }
+
+    public function collection()
+    {
+        return view('user/collection');
+    }
+    
+    public function about()
+    {
+        return view('user/about');
+    }
+    
+    public function contact()
+    {
+        return view('user/contact');
+    }
 }

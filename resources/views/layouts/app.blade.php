@@ -8,8 +8,8 @@
     </head>
     <body>
         <div class="container">
+            @include('layouts/nav')
             <div class="content">
-                @include('layouts/nav')
                 @yield('content')
             </div>
         </div>
