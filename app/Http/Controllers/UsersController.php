@@ -30,4 +30,12 @@ class UsersController extends Controller
     {
         return view('user/contact');
     }
+    public function login()
+    {
+        return view('user/login');
+    }
+    public function register()
+    {
+        return view('user/register');
+    }
 }

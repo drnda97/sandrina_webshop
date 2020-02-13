@@ -16,3 +16,5 @@ Route::get('/gallery', 'UsersController@gallery');
 Route::get('/contact', 'UsersController@contact');
 Route::get('/collection', 'UsersController@collection');
 Route::get('/about', 'UsersController@about');
+Route::get('/login', 'UsersController@login');
+Route::get('/register', 'UsersController@register');
