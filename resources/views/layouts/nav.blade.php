@@ -1,12 +1,12 @@
 <nav>
     <div class="logo">
-        <a href="/"><img src="{{asset('images/logo/logo.png')}}" alt="logo"></a>
         <div class="user-pages">
             <ul>
                 <li><a href="#"><img src="" alt="sign-in-icon">Sign in</a></li>
                 <li><a href="#"><img src="" alt="sign-in-icon">View Cart</a></li>
             </ul>
         </div>  
+        <a href="/"><img src="{{asset('images/logo.png')}}" alt="logo"></a>
     </div>
     <div class="pages">
         <ul>
